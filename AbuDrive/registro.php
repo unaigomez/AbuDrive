@@ -29,6 +29,14 @@
                             <label for="apellidos">Apellidos</label>
                         </div>
                         <div class="inputbox">
+                            <input type="text" id="telefono" name="telefono" required><br>
+                            <label for="telefono">Telefono</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" id="dni" name="dni" required><br>
+                            <label for="dni">DNI</label>
+                        </div>
+                        <div class="inputbox">
                             <input type="email" id="correo" name="correo" required><br>
                             <label for="correo">Correo electrónico</label>
                         </div>
