@@ -22,6 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = mysqli_fetch_assoc($result);
         $_SESSION["usuario_id"] = $row["id_usuario"];
         $_SESSION["nombre"] = $row["nombre_usuario"];
+        
+        setcookie("usuario_id", $row["id_usuario"], time() + 86400, "/");
+
         header("location: index.php");
     } else {
         $error = "Nombre de usuario o contraseña incorrectos.";
