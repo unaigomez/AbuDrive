@@ -1,0 +1,132 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo para el título del encabezado */
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Estilo para la sección de coches */
+section#coches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para la tarjeta de cada coche */
+.car-card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Estilo para la imagen del coche */
+.car-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: #242DFB;
+}
+
+/* Estilo para el nombre y precio del coche */
+.car-card h3 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.car-card p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Estilo para la sección de accesorios */
+section#accesorios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para la tarjeta de cada accesorio */
+.accessory-card {
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Estilo para la imagen del accesorio */
+.accessory-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo para el nombre y precio del accesorio */
+.accessory-card h3 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.accessory-card p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Estilo para el botón de alquiler */
+#alquilar-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #242DFB;
+}
+
+/* Estilo del botón de la barra de navegación */
+.navbar-toggler {
+    border-color: #fff;
+}
+
+/* Estilo del icono del botón de la barra de navegación */
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Estilo del enlace activo en la barra de navegación */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Estilo de los enlaces en la barra de navegación */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* Estilo del logo en la barra de navegación */
+.navbar-brand {
+    color: #fff;
+}
