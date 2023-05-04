@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-box">
                 <div class="form-value">
                     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                        <h2>Login</h2>
+                        <h2>Login AbuDrive</h2>
                         <div class="inputbox">
                             <ion-icon name="mail-outline"></ion-icon>
                             <input type="text" id="nombre_usuario" name="nombre_usuario" required><br>

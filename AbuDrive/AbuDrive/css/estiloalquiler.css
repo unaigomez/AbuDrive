@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,17 +7,16 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Estilo para la sección de formulario */
+
 section {
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
-/* Estilo para el cuadro del formulario */
 .form-box {
     width: 700px;
-    height: 1290px;
+    height: 880px;
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
@@ -25,19 +24,18 @@ section {
     margin-top: 35px;
 }
 
-/* Estilo para el título del formulario */
 h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilo para las etiquetas del formulario */
+
 label {
     display: block;
     margin: 10px 0;
 }
 
-/* Estilo para los campos de entrada del formulario */
+
 input[type="date"],
 select {
     width: 100%;
@@ -47,8 +45,8 @@ select {
     border-radius: 3px;
 }
 
-/* Estilo para el botón de envío del formulario */
-button[type="submit"] {
+
+button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -60,37 +58,37 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
+button:hover {
     background-color: #1c2298;
 }
-/* Estilo para el contenedor del logo */
+
 .logo-container {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilo para la imagen del logo */
+
 .logo {
-    max-width: 400px; /* Ajusta el tamaño máximo según tus necesidades */
+
     height: auto;
 }
 .accesorio-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-        /* Estilo para separar los elementos dentro del contenedor */
-        .accesorio-item > * {
-            margin-right: 10px;
-        }
 
-        /* Estilo para reducir el tamaño de la lista desplegable */
-        .accesorio-item select {
-            width: 60px;
-        }
+.accesorio-item > * {
+    margin-right: 10px;
+}
 
-        /* Estilo para aumentar el espacio entre las etiquetas y las casillas de verificación */
-        .accesorio-item input[type="checkbox"] {
-            margin-right: 20px;
-        }
+
+.accesorio-item select {
+    width: 60px;
+}
+
+
+.accesorio-item input[type="checkbox"] {
+    margin-right: 20px;
+}

@@ -67,6 +67,8 @@ $accesorios = mysqli_query($conn, "SELECT * FROM accesorios");
 
 
                 <button type="submit">Alquilar</button>
+                <br>
+                <button onclick="window.location.href='index.php';">Volver al menú principal</button>
             </form>
         </div>
     </section>

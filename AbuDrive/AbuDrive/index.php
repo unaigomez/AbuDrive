@@ -34,6 +34,10 @@
                 <a class="nav-link" href="alquiler.php">Alquilar</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="mis_alquileres.php">Mis alquileres</a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link" href="logout.php">Cerrar sesión</a>
             </li>
         </ul>
@@ -41,7 +45,8 @@
 </nav>
 
 <div class="container mt-4">
-    <h1 class="text-center">AbuDrive</h1>
+    <h1 class="text-center">Bienvenido, <?php echo $_SESSION['nombre']; ?>!</h1>
+
     <hr>
 
     <h2>Coches disponibles:</h2>

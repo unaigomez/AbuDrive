@@ -2,7 +2,7 @@
 <html>
     <head>
       <meta charset="UTF-8">  
-      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="css/estiloregistro.css">
       <title>Registro AbuDrive</title>
     </head>
     <body>
@@ -12,33 +12,42 @@
                     <form method="post" action="registrar.php">
                         <h2>Registro de usuarios</h2>
                         <div class="inputbox">
-                            <input type="text" id="nombre_usuario" name="nombre_usuario" required><br>
                             <label for="nombre_usuario">Usuario</label>
+                            <input type="text" id="nombre_usuario" name="nombre_usuario" required><br>
+                            
                         </div>
                         
                         <div class="inputbox">
-                            <input type="password" id="contraseña" name="contraseña" required><br>
                             <label for="contraseña">Contraseña</label>
+                            <input type="password" id="contraseña" name="contraseña" required><br>
+                            
                         </div>
                         <div class="inputbox">
-                            <input type="text" id="nombre" name="nombre" required><br>
                             <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required><br>
+                            
                         </div>
                         <div class="inputbox">
-                            <input type="text" id="apellidos" name="apellidos" required><br>
                             <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" name="apellidos" required><br>
+                            
                         </div>
                         <div class="inputbox">
-                            <input type="text" id="telefono" name="telefono" required><br>
                             <label for="telefono">Telefono</label>
+                            <input type="text" id="telefono" name="telefono" required><br>
+                            
                         </div>
+                        
                         <div class="inputbox">
-                            <input type="text" id="dni" name="dni" required><br>
                             <label for="dni">DNI</label>
+                            <input type="text" id="dni" name="dni" required><br>
+                            
                         </div>
+                        
                         <div class="inputbox">
-                            <input type="email" id="correo" name="correo" required><br>
                             <label for="correo">Correo electrónico</label>
+                            <input type="email" id="correo" name="correo" required><br>
+                            
                         </div>
                         <div>
                             <button>Registrarse</button>

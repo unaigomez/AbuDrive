@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 03-05-2023 a las 14:26:56
+-- Tiempo de generación: 04-05-2023 a las 14:26:26
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
@@ -40,11 +40,11 @@ CREATE TABLE `accesorios` (
 
 INSERT INTO `accesorios` (`id_accesorio`, `nombre`, `imagen`, `precio`) VALUES
 (1, 'SillitaNiños', 'sillita.jpg', '9.99'),
-(2, 'Bluetooth', 'bluetooth.png', '6.99'),
-(3, 'Cadenas Nieve', 'cadenas.jpg', '24.99'),
+(2, 'Bluetooth', 'Bluetooth.jpg', '6.99'),
+(3, 'Cadenas Nieve', 'cadenasparanieve.jpg', '24.99'),
 (4, 'Baca', 'baca.jpg', '19.99'),
 (5, 'GPS', 'gps.png', '14.99'),
-(6, 'Bidón Gasolina Homologado', 'bidon.jpg', '9.99');
+(6, 'Bidón Gasolina Homologado', 'bidon.png', '9.99');
 
 -- --------------------------------------------------------
 
@@ -94,9 +94,9 @@ CREATE TABLE `coches` (
 --
 
 INSERT INTO `coches` (`id_coche`, `marca`, `modelo`, `imagen`, `estado`, `precio_diario`) VALUES
-(1, 'Seat', 'Leon', 'leon.jpg', 'libre', '49.99'),
-(2, 'Volkswagen', 'Golf', 'golf.jpg', 'libre', '59.99'),
-(3, 'Toyota', 'Supra MK5', 'supra.jpg', 'libre', '179.99'),
+(1, 'Seat', 'Leon', 'leon.jpg', 'ocupado', '49.99'),
+(2, 'Volkswagen', 'Golf', 'golf.jpg', 'ocupado', '59.99'),
+(3, 'Toyota', 'Supra MK5', 'supra.jpg', 'ocupado', '179.99'),
 (4, 'Renault', 'Clio', 'clio.jpeg', 'libre', '29.99'),
 (5, 'Mercedes', 'Clase A', 'clasea.jpg', 'libre', '99.99'),
 (6, 'Opel', 'Corsa', 'corsa.jpg', 'libre', '34.99'),
@@ -126,7 +126,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre_usuario`, `contraseña`, `nombre`, `apellidos`, `telefono`, `dni`, `correo`) VALUES
-(1, 'unai', 'unai', 'unai', 'unai', '6583865853', '982384932834U', 'unai@unai.unai');
+(1, 'Unai', 'unai', 'unai', 'unai', '6583865853', '982384932834U', 'unai@unai.unai');
 
 --
 -- Índices para tablas volcadas
@@ -173,7 +173,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `alquileres`
 --
 ALTER TABLE `alquileres`
-  MODIFY `id_alquiler` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id_alquiler` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
