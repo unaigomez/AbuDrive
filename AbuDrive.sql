@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 04-05-2023 a las 14:26:26
+-- Tiempo de generación: 05-05-2023 a las 08:33:53
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
@@ -94,9 +94,9 @@ CREATE TABLE `coches` (
 --
 
 INSERT INTO `coches` (`id_coche`, `marca`, `modelo`, `imagen`, `estado`, `precio_diario`) VALUES
-(1, 'Seat', 'Leon', 'leon.jpg', 'ocupado', '49.99'),
-(2, 'Volkswagen', 'Golf', 'golf.jpg', 'ocupado', '59.99'),
-(3, 'Toyota', 'Supra MK5', 'supra.jpg', 'ocupado', '179.99'),
+(1, 'Seat', 'Leon', 'leon.jpg', 'libre', '49.99'),
+(2, 'Volkswagen', 'Golf', 'golf.jpg', 'libre', '59.99'),
+(3, 'Toyota', 'Supra MK5', 'supra.jpg', 'libre', '179.99'),
 (4, 'Renault', 'Clio', 'clio.jpeg', 'libre', '29.99'),
 (5, 'Mercedes', 'Clase A', 'clasea.jpg', 'libre', '99.99'),
 (6, 'Opel', 'Corsa', 'corsa.jpg', 'libre', '34.99'),
@@ -173,13 +173,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `alquileres`
 --
 ALTER TABLE `alquileres`
-  MODIFY `id_alquiler` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id_alquiler` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Restricciones para tablas volcadas
